@@ -1,5 +1,3 @@
 # nisa1.github.io
 
-In order for health-conscious people to find out how easy it is to find protein in plants, 
-Fit Flavor will solve the common problem of remembering the amount of protein available in plant foods by 
-visually grouping information into memorable, bite-sized cards.
+Searching for the amount of protein in plants is time-consuming and overwhelming for the curious, health-conscious people. Fit Flavour will help users realize how easy it is to find, process, and remember the amount of protein available in plants by visually grouping information in memborable, bite-sized cards.
