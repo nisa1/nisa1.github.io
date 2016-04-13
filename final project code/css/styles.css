@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Karma);
+
+*{
+	-moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+	font-family: 'Karma', serif;
+}
+
+#protein-container {
+	text-align: center;
+}
+
+.protein-container {
+	border: 2px solid #000;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 3%;
+	width: 35%;
+	height: 188px;
+	display: inline-block;
+	background: #F0F5FB;
+	font-size: 14px;
+	text-align: initial;
+}
+
+#protein-container:hover{
+	opacity:1;
+	transition:1s;
+}
+
+p {
+	background-color: #fff;
+	text-align: center;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    margin: 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.text-center {
+	background-color: #fff;
+	text-align: center;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	padding: 20px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 16px;
+	position: relative;
+    left: 0px;
+    bottom: 18px;
+    top: 8px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 67px;
+    height: 36px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+h6 {
+	font-size: 10px;
+    position: relative;
+    left: 0px;
+    bottom: -1px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 67px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+.top{
+	background-color: #517439;
+	bottom: 2em;
+	color: #fff;
+	display: none;
+	opacity:0.6;
+	padding: 1.5em;
+	position: fixed;
+	right: 1.5em;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+.top:hover{
+	opacity:1;
+	transition:1s;
+	color: #fff;
+}
+
+.left-container {
+	background-image:url(../assets/bg.jpg);
+	background-size: cover;
+	height: 768px;
+	background-repeat: no-repeat;
+	position: fixed;
+	width: 50%;
+	/* margin: 25px; */
+}
+
+.main-text {
+	margin-top: 20px;
+}
+
+.name {
+	color: black;
+	width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: -29px;
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    background: white;
+
+}
+
+.grams {
+	color: black;
+	background-color: #BBD39F;
+	border-radius: 30px;
+	font-size: 25px;
+	text-align: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 12px;
+    float: left;
+    margin: 13px;
+
+}
+
+.tip {
+	font-size: 16px;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 2px;
+}
+
+.picture {
+	position: relative;
+    left: 24px;
+    bottom: 28px;
+}
+
+.serving {
+	/* float: left; */
+	/* padding-top: 56px;
+    padding-left: 19px; */
+    position: relative;
+    top: 52px;
+    right: 60px;
+    font-size: 14px;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    .left-container {
+        position: static;
+		width: 100%;
+	}
+		
+.protein-container {
+		display: inline-block;
+		text-align: initial;
+		width: 73%;
+		margin-bottom: 25px;
+		height: 170px;
+	}
+
+p {
+	font-size: 14px;;
+}
+
+.left-container {
+	height: 532px;
+	/* margin: 25px; */
+}
+
+#protein-container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.name {
+	color: black;
+	width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: -29px;
+    width: 126px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 11px;
+    background: white;
+
+}
+
+.picture {
+	position: relative;
+    left: 24px;
+    bottom: 36px;
+    width: 77px;
+    height: 69px;
+}
+
+.tip {
+	font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 18px;
+}
+
+h1 {
+	font-size: 16px;
+	position: relative;
+    left: 0px;
+    bottom: 13px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 67px;
+    height: 37px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
+h6 {
+	font-size: 10px;
+    position: relative;
+    left: 0px;
+    bottom: -1px;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 67px;
+    height: 25px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
